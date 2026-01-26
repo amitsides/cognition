@@ -1,0 +1,216 @@
+<mxfile host="app.diagrams.net" modified="2025-10-19T12:00:00.000Z" agent="Claude" version="21.0.0" etag="cognitive-arch-v2" type="device">
+  <diagram id="cognitive-architecture" name="Agentic Cognition Flow">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Perception -->
+        <mxCell id="perception" value="perception" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5ff;strokeColor=#0077b6;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Sensory Buffer -->
+        <mxCell id="sensory_buffer" value="sensory_buffer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#f0ad4e;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Working Memory -->
+        <mxCell id="working_memory" value="working_memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#f0ad4e;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- LTM Index -->
+        <mxCell id="ltm_index" value="ltm_index" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#f0ad4e;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Reduction Engine -->
+        <mxCell id="reduction_engine" value="reduction_engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Planner -->
+        <mxCell id="planner" value="planner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- ToT Manager -->
+        <mxCell id="tot_manager" value="tot_manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Proposer Agents -->
+        <mxCell id="proposer_agents" value="proposer_agents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Executor -->
+        <mxCell id="executor" value="executor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#dc3545;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="670" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Verifier -->
+        <mxCell id="verifier" value="verifier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#dc3545;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Reflector -->
+        <mxCell id="reflector" value="reflector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2d5f5;strokeColor=#6f42c1;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="760" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Learner -->
+        <mxCell id="learner" value="learner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2d5f5;strokeColor=#6f42c1;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="760" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Archivist -->
+        <mxCell id="archivist" value="archivist" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#f0ad4e;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="580" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Arbiter -->
+        <mxCell id="arbiter" value="arbiter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2d5f5;strokeColor=#6f42c1;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Meta Controller -->
+        <mxCell id="meta_controller" value="meta_controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2d5f5;strokeColor=#6f42c1;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Monitor -->
+        <mxCell id="monitor" value="monitor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#17a2b8;strokeWidth=2;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="580" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Edges -->
+        <mxCell id="edge1" edge="1" parent="1" source="perception" target="sensory_buffer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge2" edge="1" parent="1" source="sensory_buffer" target="working_memory">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge3" edge="1" parent="1" source="working_memory" target="reduction_engine">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge4" edge="1" parent="1" source="ltm_index" target="reduction_engine">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge5" edge="1" parent="1" source="reduction_engine" target="planner">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge6" edge="1" parent="1" source="planner" target="tot_manager">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge7" edge="1" parent="1" source="tot_manager" target="proposer_agents">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge8" edge="1" parent="1" source="proposer_agents" target="executor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge9" edge="1" parent="1" source="executor" target="verifier">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge10" edge="1" parent="1" source="verifier" target="reflector">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge11" edge="1" parent="1" source="reflector" target="learner">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge12" edge="1" parent="1" source="learner" target="proposer_agents">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="700" />
+              <mxPoint x="580" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="edge13" edge="1" parent="1" source="learner" target="verifier">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="785" />
+              <mxPoint x="580" y="850" />
+              <mxPoint x="180" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="edge14" edge="1" parent="1" source="learner" target="planner">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="700" />
+              <mxPoint x="580" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="edge15" edge="1" parent="1" source="executor" target="archivist">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge16" edge="1" parent="1" source="tot_manager" target="archivist">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge17" edge="1" parent="1" source="archivist" target="ltm_index">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="540" />
+              <mxPoint x="380" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="edge18" edge="1" parent="1" source="meta_controller" target="arbiter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge19" edge="1" parent="1" source="monitor" target="meta_controller">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge20" edge="1" parent="1" source="verifier" target="meta_controller">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="870" />
+              <mxPoint x="780" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="edge21" edge="1" parent="1" source="arbiter" target="proposer_agents">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge22" edge="1" parent="1" source="arbiter" target="tot_manager">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge23" edge="1" parent="1" source="meta_controller" target="ltm_index">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="450" />
+              <mxPoint x="380" y="450" />
+              <mxPoint x="380" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

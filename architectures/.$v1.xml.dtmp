@@ -1,0 +1,163 @@
+<mxfile host="Electron" modified="2025-10-25T17:47:52.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="PBDLRN5TIvHdyFYDCGRS" version="23.1.5" type="device">
+  <diagram id="simplified_a2a_hmas" name="A2A/HMAS Architecture">
+    <mxGraphModel dx="2302" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a2a_title" value="A2A PROTOCOL" style="text;fontSize=12;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="60" y="30" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AgentCard" value="AgentCard&#xa;+ name, description&#xa;+ skills: AgentSkill[]&#xa;+ rpc_endpoint" style="rounded=0;fillColor=#d5e8d4;strokeColor=#82b366" parent="1" vertex="1">
+          <mxGeometry x="60" y="60" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AgentSkill" value="AgentSkill&#xa;+ id, name&#xa;+ description&#xa;+ tags[]" style="rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf" parent="1" vertex="1">
+          <mxGeometry x="250" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="adk_title" value="ADK AGENTS" style="text;fontSize=12;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="450" y="30" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BaseAgent" value="BaseAgent&#xa;+ name, description&#xa;+ sub_agents[]&#xa;+ run(input): output" style="rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00" parent="1" vertex="1">
+          <mxGeometry x="450" y="60" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LlmAgent" value="LlmAgent&#xa;+ tools[]&#xa;+ planner" style="rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00" parent="1" vertex="1">
+          <mxGeometry x="450" y="170" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OrchAgent" value="Orchestration Agents&#xa;Sequential | Parallel | Loop" style="rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00" parent="1" vertex="1">
+          <mxGeometry x="620" y="60" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hmas_title" value="HMAS GRAPH" style="text;fontSize=12;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="60" y="280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AgentNode" value="AgentNode&#xa;+ uri, state&#xa;+ wraps: BaseAgent&#xa;+ exposes: AgentCard" style="rounded=0;fillColor=#fff2cc;strokeColor=#d6b656" parent="1" vertex="1">
+          <mxGeometry x="60" y="310" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ClusterNode" value="ClusterNode&#xa;+ members: AgentNode[]&#xa;+ required_skills[]" style="rounded=0;fillColor=#fff2cc;strokeColor=#d6b656" parent="1" vertex="1">
+          <mxGeometry x="250" y="310" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TargetNode" value="TargetNode&#xa;+ objective&#xa;+ required_skills[]" style="rounded=0;fillColor=#fff2cc;strokeColor=#d6b656" parent="1" vertex="1">
+          <mxGeometry x="460" y="425" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CoopEdge" value="CooperationEdge&#xa;+ source, target&#xa;+ trust_score&#xa;+ edge_weight" style="rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6" parent="1" vertex="1">
+          <mxGeometry x="60" y="420" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="task_title" value="TASK HANDOFF" style="text;fontSize=12;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="640" y="280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TaskCard" value="TaskCard&#xa;+ task_type, context&#xa;+ required_skills[]&#xa;+ current_holder&#xa;+ handoff_history[]" style="rounded=0;fillColor=#fce5cd;strokeColor=#d8a436" parent="1" vertex="1">
+          <mxGeometry x="750" y="310" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HandoffEvent" value="HandoffEvent&#xa;+ from/to: AgentNode&#xa;+ outcome&#xa;+ timestamp" style="rounded=0;fillColor=#fce5cd;strokeColor=#d8a436" parent="1" vertex="1">
+          <mxGeometry x="640" y="440" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="service_title" value="SERVICES" style="text;fontSize=12;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="250" y="540" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GraphBuilder" value="HMASGraphBuilder&#xa;+ register_agent()&#xa;+ route_task()&#xa;+ form_cluster()&#xa;+ sparql_endpoint" style="rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6" parent="1" vertex="1">
+          <mxGeometry x="250" y="570" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CardBuilder" value="AgentCardBuilder&#xa;+ build(): AgentCard&#xa;+ build_skills()" style="rounded=0;fillColor=#d5e8d4;strokeColor=#82b366" parent="1" vertex="1">
+          <mxGeometry x="450" y="570" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="card_skill" value="" style="endArrow=diamondThin;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5" parent="1" source="AgentCard" target="AgentSkill" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="card_skill_label" value="has" style="edgeLabel;fontSize=9" parent="card_skill" vertex="1" connectable="0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agent_inherit" value="" style="endArrow=block;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0" parent="1" source="LlmAgent" target="BaseAgent" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agent_card" value="" style="endArrow=open;dashed=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5" parent="1" source="BaseAgent" target="AgentCard" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agent_card_label" value="exposes" style="edgeLabel;fontSize=9" parent="agent_card" vertex="1" connectable="0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="node_agent" value="" style="endArrow=open;exitX=0.5;exitY=0;entryX=0.5;entryY=1" parent="1" source="AgentNode" target="BaseAgent" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="260" />
+              <mxPoint x="520" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="node_agent_label" value="wraps" style="edgeLabel;fontSize=9" parent="node_agent" vertex="1" connectable="0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cluster_agent" value="" style="endArrow=diamondThin;endFill=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5" parent="1" source="AgentNode" target="ClusterNode" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cluster_agent_label" value="member" style="edgeLabel;fontSize=9" parent="cluster_agent" vertex="1" connectable="0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cluster_target" value="" style="endArrow=open;exitX=1;exitY=0.5;entryX=0;entryY=0.5" parent="1" source="ClusterNode" target="TargetNode" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cluster_target_label" value="assigned" style="edgeLabel;fontSize=9" parent="cluster_target" vertex="1" connectable="0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_node" value="" style="endArrow=open;exitX=0.5;exitY=1;entryX=0.5;entryY=0" parent="1" source="AgentNode" target="CoopEdge" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_node_label" value="connects" style="edgeLabel;fontSize=9" parent="edge_node" vertex="1" connectable="0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="task_holder" value="" style="endArrow=open;exitX=0;exitY=0.5;entryX=1;entryY=0.5" parent="1" source="TaskCard" target="AgentNode" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="360" />
+              <mxPoint x="600" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="task_holder_label" value="held by" style="edgeLabel;fontSize=9" parent="task_holder" vertex="1" connectable="0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="task_handoff" value="" style="endArrow=diamondThin;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0" parent="1" source="TaskCard" target="HandoffEvent" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="task_handoff_label" value="history" style="edgeLabel;fontSize=9" parent="task_handoff" vertex="1" connectable="0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="builder_card" value="" style="endArrow=open;dashed=1;exitX=0;exitY=0.5;entryX=1;entryY=1" parent="1" source="CardBuilder" target="AgentCard" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="605" />
+              <mxPoint x="420" y="200" />
+              <mxPoint x="210" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="builder_card_label" value="builds" style="edgeLabel;fontSize=9" parent="builder_card" vertex="1" connectable="0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="140" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="graph_ops" value="" style="endArrow=open;exitX=0.5;exitY=0;entryX=0.5;entryY=1" parent="1" source="GraphBuilder" target="ClusterNode" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="graph_ops_label" value="orchestrates" style="edgeLabel;fontSize=9" parent="graph_ops" vertex="1" connectable="0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
