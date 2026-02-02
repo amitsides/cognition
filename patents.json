@@ -1,0 +1,901 @@
+{
+  "meta": {
+    "project": "cognition2lean4",
+    "description": "100 patents relevant to cognition, cognitive computing, and AI reasoning — structured for formalization into Lean 4 proof terms",
+    "generated": "2026-02-01",
+    "schema_version": "1.0"
+  },
+  "patents": [
+    {
+      "id": "US11468291B2",
+      "title": "Attention-based sequence transduction neural networks",
+      "assignee": "Google LLC",
+      "year": 2022,
+      "domain": "attention_mechanisms",
+      "abstract": "Multi-head self-attention mechanism for sequence-to-sequence transduction without recurrence or convolution.",
+      "formalizable_claims": ["attention_score_computation", "softmax_normalization", "multi_head_projection"]
+    },
+    {
+      "id": "US10417525B2",
+      "title": "Neural network for cognitive state classification",
+      "assignee": "IBM",
+      "year": 2019,
+      "domain": "cognitive_state_modeling",
+      "abstract": "System classifying cognitive states from multimodal sensor inputs using deep neural architectures.",
+      "formalizable_claims": ["state_classification_function", "multimodal_fusion_operator", "temporal_windowing"]
+    },
+    {
+      "id": "US9946970B2",
+      "title": "Cognitive memory network with episodic retrieval",
+      "assignee": "IBM",
+      "year": 2018,
+      "domain": "memory_systems",
+      "abstract": "Architecture implementing episodic memory retrieval via attention-gated addressing over external memory banks.",
+      "formalizable_claims": ["memory_addressing_scheme", "gated_retrieval_function", "episodic_binding"]
+    },
+    {
+      "id": "US10839302B2",
+      "title": "System for commonsense reasoning using knowledge graphs",
+      "assignee": "Microsoft",
+      "year": 2020,
+      "domain": "reasoning_engines",
+      "abstract": "Graph-based commonsense reasoning engine integrating structured knowledge with neural inference.",
+      "formalizable_claims": ["graph_traversal_inference", "commonsense_entailment", "knowledge_triple_scoring"]
+    },
+    {
+      "id": "US11210490B2",
+      "title": "Brain-computer interface signal decoding via deep learning",
+      "assignee": "Neuralink Corp",
+      "year": 2021,
+      "domain": "brain_computer_interface",
+      "abstract": "Neural signal decoding pipeline translating cortical spike trains into motor intent using temporal convolution.",
+      "formalizable_claims": ["spike_train_encoding", "temporal_convolution_decoding", "motor_intent_classification"]
+    },
+    {
+      "id": "US10762396B2",
+      "title": "Hierarchical reinforcement learning for cognitive task planning",
+      "assignee": "DeepMind Technologies",
+      "year": 2020,
+      "domain": "planning_and_decision",
+      "abstract": "Hierarchical policy decomposition for long-horizon cognitive task planning with sub-goal discovery.",
+      "formalizable_claims": ["policy_hierarchy_structure", "subgoal_discovery_function", "option_termination_condition"]
+    },
+    {
+      "id": "US9792534B2",
+      "title": "Cognitive computing system with natural language understanding",
+      "assignee": "IBM",
+      "year": 2017,
+      "domain": "natural_language_understanding",
+      "abstract": "Cognitive system parsing natural language into structured semantic representations for question answering.",
+      "formalizable_claims": ["semantic_parse_function", "answer_extraction_operator", "confidence_scoring"]
+    },
+    {
+      "id": "US11138507B2",
+      "title": "Transformer architecture with sparse attention patterns",
+      "assignee": "Google LLC",
+      "year": 2021,
+      "domain": "attention_mechanisms",
+      "abstract": "Sparse attention patterns reducing quadratic complexity while preserving representational capacity.",
+      "formalizable_claims": ["sparse_attention_mask", "complexity_bound_proof", "approximation_guarantee"]
+    },
+    {
+      "id": "US10528866B2",
+      "title": "Metacognitive monitoring in artificial neural systems",
+      "assignee": "IBM",
+      "year": 2020,
+      "domain": "metacognition",
+      "abstract": "System enabling neural networks to estimate their own prediction confidence and trigger re-evaluation.",
+      "formalizable_claims": ["confidence_estimation_function", "re_evaluation_trigger", "metacognitive_feedback_loop"]
+    },
+    {
+      "id": "US11176461B2",
+      "title": "Neural architecture search via cognitive complexity metrics",
+      "assignee": "Google LLC",
+      "year": 2021,
+      "domain": "architecture_search",
+      "abstract": "Automated architecture search constrained by cognitive complexity metrics approximating human reasoning effort.",
+      "formalizable_claims": ["search_space_definition", "complexity_metric_formulation", "pareto_optimality_criterion"]
+    },
+    {
+      "id": "US10346726B2",
+      "title": "Working memory augmented neural networks",
+      "assignee": "DeepMind Technologies",
+      "year": 2019,
+      "domain": "memory_systems",
+      "abstract": "Neural network augmented with differentiable external working memory for algorithmic reasoning tasks.",
+      "formalizable_claims": ["read_write_head_mechanism", "memory_allocation_scheme", "content_based_addressing"]
+    },
+    {
+      "id": "US10902312B2",
+      "title": "Causal inference engine for cognitive systems",
+      "assignee": "Microsoft",
+      "year": 2021,
+      "domain": "causal_reasoning",
+      "abstract": "Engine performing causal inference from observational data using structural causal models and do-calculus.",
+      "formalizable_claims": ["structural_causal_model", "do_operator_semantics", "identifiability_criterion"]
+    },
+    {
+      "id": "US11250318B2",
+      "title": "Analogical reasoning in neural-symbolic systems",
+      "assignee": "IBM",
+      "year": 2022,
+      "domain": "reasoning_engines",
+      "abstract": "Hybrid system performing analogical reasoning by mapping structural relations between neural embeddings.",
+      "formalizable_claims": ["structure_mapping_function", "relational_similarity_metric", "analogical_transfer_operator"]
+    },
+    {
+      "id": "US10671913B2",
+      "title": "Cognitive load estimation from physiological signals",
+      "assignee": "Intel Corporation",
+      "year": 2020,
+      "domain": "cognitive_state_modeling",
+      "abstract": "Real-time cognitive load estimation using EEG, pupilometry, and galvanic skin response fusion.",
+      "formalizable_claims": ["signal_fusion_function", "cognitive_load_index", "temporal_smoothing_filter"]
+    },
+    {
+      "id": "US11157804B2",
+      "title": "Graph neural networks for abstract reasoning",
+      "assignee": "DeepMind Technologies",
+      "year": 2021,
+      "domain": "reasoning_engines",
+      "abstract": "Graph neural network performing abstract visual reasoning over relational structures in perception tasks.",
+      "formalizable_claims": ["message_passing_function", "relational_inference_step", "abstract_pattern_completion"]
+    },
+    {
+      "id": "US10699185B2",
+      "title": "Embodied cognitive agent with sensorimotor integration",
+      "assignee": "Boston Dynamics",
+      "year": 2020,
+      "domain": "embodied_cognition",
+      "abstract": "Embodied agent integrating sensorimotor feedback loops with cognitive planning modules for adaptive behavior.",
+      "formalizable_claims": ["sensorimotor_loop_definition", "planning_module_interface", "adaptive_behavior_policy"]
+    },
+    {
+      "id": "US10956807B2",
+      "title": "Neuro-symbolic program synthesis for cognitive tasks",
+      "assignee": "MIT",
+      "year": 2021,
+      "domain": "program_synthesis",
+      "abstract": "Synthesizing interpretable programs from neural perception modules guided by symbolic type constraints.",
+      "formalizable_claims": ["program_space_grammar", "type_guided_search", "neural_perception_module_interface"]
+    },
+    {
+      "id": "US11361208B2",
+      "title": "Continual learning without catastrophic forgetting",
+      "assignee": "Google LLC",
+      "year": 2022,
+      "domain": "memory_systems",
+      "abstract": "Elastic weight consolidation preventing catastrophic forgetting during sequential cognitive task acquisition.",
+      "formalizable_claims": ["fisher_information_computation", "weight_importance_measure", "regularization_penalty_term"]
+    },
+    {
+      "id": "US10776697B2",
+      "title": "Bayesian theory of mind for multi-agent systems",
+      "assignee": "DeepMind Technologies",
+      "year": 2020,
+      "domain": "theory_of_mind",
+      "abstract": "Bayesian model inferring beliefs, desires, and intentions of other agents from observed behavior.",
+      "formalizable_claims": ["belief_state_posterior", "desire_inference_likelihood", "intention_prediction_function"]
+    },
+    {
+      "id": "US11182682B2",
+      "title": "Self-supervised contrastive learning of cognitive representations",
+      "assignee": "Meta Platforms",
+      "year": 2021,
+      "domain": "representation_learning",
+      "abstract": "Self-supervised framework learning cognitive representations via contrastive objectives without labeled data.",
+      "formalizable_claims": ["contrastive_loss_function", "augmentation_invariance_property", "representation_alignment_metric"]
+    },
+    {
+      "id": "US10438112B2",
+      "title": "Predictive coding in hierarchical neural architectures",
+      "assignee": "Numenta Inc",
+      "year": 2019,
+      "domain": "predictive_processing",
+      "abstract": "Hierarchical architecture implementing predictive coding with top-down predictions and bottom-up error signals.",
+      "formalizable_claims": ["prediction_error_computation", "hierarchical_message_passing", "precision_weighting_mechanism"]
+    },
+    {
+      "id": "US11093836B2",
+      "title": "Attention-based cognitive map for spatial reasoning",
+      "assignee": "DeepMind Technologies",
+      "year": 2021,
+      "domain": "spatial_cognition",
+      "abstract": "Neural cognitive map using attention for spatial reasoning and navigation in partially observed environments.",
+      "formalizable_claims": ["spatial_encoding_function", "place_cell_representation", "path_integration_operator"]
+    },
+    {
+      "id": "US10579914B2",
+      "title": "Dynamic neural network routing for cognitive specialization",
+      "assignee": "Google LLC",
+      "year": 2020,
+      "domain": "architecture_search",
+      "abstract": "Mixture-of-experts routing dynamically activating specialized cognitive sub-networks based on input type.",
+      "formalizable_claims": ["routing_function", "expert_gating_mechanism", "load_balancing_constraint"]
+    },
+    {
+      "id": "US11295210B2",
+      "title": "Emotion recognition via multimodal cognitive fusion",
+      "assignee": "Apple Inc",
+      "year": 2022,
+      "domain": "affective_computing",
+      "abstract": "Multimodal system recognizing emotional states by fusing facial, vocal, and linguistic cognitive cues.",
+      "formalizable_claims": ["modality_embedding_function", "cross_modal_attention", "emotion_taxonomy_classification"]
+    },
+    {
+      "id": "US10685283B2",
+      "title": "Cognitive task decomposition via recursive neural planning",
+      "assignee": "Salesforce",
+      "year": 2020,
+      "domain": "planning_and_decision",
+      "abstract": "Recursive decomposition of complex cognitive tasks into executable sub-plans with dependency ordering.",
+      "formalizable_claims": ["task_decomposition_grammar", "dependency_graph_construction", "plan_verification_predicate"]
+    },
+    {
+      "id": "US10824942B2",
+      "title": "Spiking neural network for temporal cognition",
+      "assignee": "Intel Corporation",
+      "year": 2020,
+      "domain": "neuromorphic_computing",
+      "abstract": "Spiking neural network architecture encoding temporal cognitive patterns via precise spike timing.",
+      "formalizable_claims": ["spike_timing_dependent_plasticity", "temporal_coding_scheme", "leaky_integrate_fire_dynamics"]
+    },
+    {
+      "id": "US11256987B2",
+      "title": "Cognitive dialogue system with persona grounding",
+      "assignee": "Meta Platforms",
+      "year": 2022,
+      "domain": "natural_language_understanding",
+      "abstract": "Dialogue system maintaining consistent cognitive persona via grounded memory and personality embeddings.",
+      "formalizable_claims": ["persona_embedding_function", "consistency_verification", "grounded_response_generation"]
+    },
+    {
+      "id": "US10643128B2",
+      "title": "Concept formation via prototype-based neural clustering",
+      "assignee": "IBM",
+      "year": 2020,
+      "domain": "concept_learning",
+      "abstract": "Neural system forming concepts through prototype-based clustering in learned representation space.",
+      "formalizable_claims": ["prototype_update_rule", "concept_membership_function", "hierarchical_concept_tree"]
+    },
+    {
+      "id": "US11144785B2",
+      "title": "Compositional generalization in neural semantic parsing",
+      "assignee": "Google LLC",
+      "year": 2021,
+      "domain": "compositionality",
+      "abstract": "Neural parser achieving systematic compositional generalization by disentangling syntax from semantics.",
+      "formalizable_claims": ["syntax_semantics_factorization", "compositional_rule_application", "generalization_test_predicate"]
+    },
+    {
+      "id": "US10867236B2",
+      "title": "Curiosity-driven exploration via intrinsic motivation",
+      "assignee": "OpenAI",
+      "year": 2020,
+      "domain": "intrinsic_motivation",
+      "abstract": "Exploration policy driven by prediction error as intrinsic reward signal for cognitive development.",
+      "formalizable_claims": ["prediction_error_reward", "exploration_bonus_computation", "novelty_detection_function"]
+    },
+    {
+      "id": "US11321614B2",
+      "title": "Cognitive digital twin for human decision modeling",
+      "assignee": "Siemens AG",
+      "year": 2022,
+      "domain": "cognitive_modeling",
+      "abstract": "Digital twin modeling individual human cognitive decision patterns for prediction and assistance.",
+      "formalizable_claims": ["decision_model_parameters", "behavioral_likelihood_function", "model_update_rule"]
+    },
+    {
+      "id": "US10540601B2",
+      "title": "Relational reasoning over visual scenes",
+      "assignee": "DeepMind Technologies",
+      "year": 2020,
+      "domain": "reasoning_engines",
+      "abstract": "Neural module performing relational reasoning over object representations extracted from visual scenes.",
+      "formalizable_claims": ["object_pair_relation_function", "relation_aggregation_operator", "scene_graph_construction"]
+    },
+    {
+      "id": "US11087206B2",
+      "title": "Federated learning of cognitive models with differential privacy",
+      "assignee": "Google LLC",
+      "year": 2021,
+      "domain": "distributed_cognition",
+      "abstract": "Distributed training of cognitive models across devices with formal differential privacy guarantees.",
+      "formalizable_claims": ["privacy_budget_accounting", "noise_addition_mechanism", "aggregation_protocol"]
+    },
+    {
+      "id": "US10755151B2",
+      "title": "Inductive logic programming for cognitive rule extraction",
+      "assignee": "IBM",
+      "year": 2020,
+      "domain": "symbolic_reasoning",
+      "abstract": "System extracting logical rules from neural network behavior via differentiable inductive logic programming.",
+      "formalizable_claims": ["rule_template_language", "differentiable_unification", "rule_confidence_scoring"]
+    },
+    {
+      "id": "US11386334B2",
+      "title": "Vision-language cognitive grounding with transformers",
+      "assignee": "Microsoft",
+      "year": 2022,
+      "domain": "multimodal_cognition",
+      "abstract": "Transformer grounding language expressions in visual scenes for cognitive visual question answering.",
+      "formalizable_claims": ["cross_modal_attention_map", "grounding_score_function", "answer_derivation_chain"]
+    },
+    {
+      "id": "US10592771B2",
+      "title": "Cognitive error detection and self-correction in AI systems",
+      "assignee": "IBM",
+      "year": 2020,
+      "domain": "metacognition",
+      "abstract": "System detecting its own reasoning errors via internal consistency checks and triggering self-correction.",
+      "formalizable_claims": ["consistency_check_predicate", "error_localization_function", "correction_proposal_generator"]
+    },
+    {
+      "id": "US11200467B2",
+      "title": "Neural theorem proving with cognitive search heuristics",
+      "assignee": "Google LLC",
+      "year": 2022,
+      "domain": "formal_reasoning",
+      "abstract": "Neural-guided theorem prover using learned cognitive heuristics to prioritize proof search.",
+      "formalizable_claims": ["proof_state_embedding", "tactic_selection_policy", "proof_tree_search_strategy"]
+    },
+    {
+      "id": "US10726345B2",
+      "title": "Cognitive speech recognition with contextual adaptation",
+      "assignee": "Amazon Technologies",
+      "year": 2020,
+      "domain": "speech_cognition",
+      "abstract": "Speech recognition system adapting to cognitive context including topic, speaker state, and environment.",
+      "formalizable_claims": ["context_embedding_function", "language_model_interpolation", "adaptation_weight_update"]
+    },
+    {
+      "id": "US11301738B2",
+      "title": "Abstract visual reasoning via disentangled representations",
+      "assignee": "DeepMind Technologies",
+      "year": 2022,
+      "domain": "abstract_reasoning",
+      "abstract": "Disentangled representation learning enabling abstract visual reasoning on Raven-style progressive matrices.",
+      "formalizable_claims": ["disentanglement_metric", "rule_extraction_function", "matrix_completion_prediction"]
+    },
+    {
+      "id": "US10614367B2",
+      "title": "Knowledge distillation for cognitive model compression",
+      "assignee": "NVIDIA",
+      "year": 2020,
+      "domain": "model_compression",
+      "abstract": "Distilling cognitive capabilities from large models into compact student models preserving reasoning quality.",
+      "formalizable_claims": ["distillation_loss_function", "capacity_gap_measure", "reasoning_preservation_metric"]
+    },
+    {
+      "id": "US11157796B2",
+      "title": "Schema-guided cognitive dialogue state tracking",
+      "assignee": "Google LLC",
+      "year": 2021,
+      "domain": "natural_language_understanding",
+      "abstract": "Dialogue state tracker using schema descriptions to generalize cognitive understanding across new domains.",
+      "formalizable_claims": ["schema_encoding_function", "slot_filling_operator", "state_update_rule"]
+    },
+    {
+      "id": "US10891548B2",
+      "title": "Moral reasoning module for autonomous cognitive agents",
+      "assignee": "IBM",
+      "year": 2021,
+      "domain": "ethical_reasoning",
+      "abstract": "Module evaluating actions against ethical frameworks for moral reasoning in autonomous cognitive agents.",
+      "formalizable_claims": ["ethical_framework_encoding", "action_evaluation_function", "moral_preference_ordering"]
+    },
+    {
+      "id": "US10963788B2",
+      "title": "Counterfactual reasoning in cognitive neural networks",
+      "assignee": "Microsoft",
+      "year": 2021,
+      "domain": "causal_reasoning",
+      "abstract": "Neural architecture generating and evaluating counterfactual scenarios for causal cognitive reasoning.",
+      "formalizable_claims": ["counterfactual_generation_function", "intervention_operator", "outcome_comparison_metric"]
+    },
+    {
+      "id": "US11416733B2",
+      "title": "Cognitive process automation with intent understanding",
+      "assignee": "UiPath",
+      "year": 2022,
+      "domain": "cognitive_automation",
+      "abstract": "Automation system understanding user intent from natural language and mapping to cognitive process workflows.",
+      "formalizable_claims": ["intent_classification_function", "workflow_mapping_operator", "execution_plan_verification"]
+    },
+    {
+      "id": "US10657431B2",
+      "title": "Temporal difference learning for cognitive value estimation",
+      "assignee": "DeepMind Technologies",
+      "year": 2020,
+      "domain": "reinforcement_learning",
+      "abstract": "Temporal difference learning algorithm estimating cognitive value functions for sequential decision-making.",
+      "formalizable_claims": ["td_error_computation", "value_function_approximation", "bellman_consistency_equation"]
+    },
+    {
+      "id": "US11227221B2",
+      "title": "Cognitive document understanding via layout-aware transformers",
+      "assignee": "Microsoft",
+      "year": 2022,
+      "domain": "document_cognition",
+      "abstract": "Transformer model understanding document cognition through joint modeling of text content and spatial layout.",
+      "formalizable_claims": ["layout_embedding_function", "text_position_encoding", "cross_modality_attention"]
+    },
+    {
+      "id": "US10509991B2",
+      "title": "Attention control in cognitive robotic systems",
+      "assignee": "Honda Research Institute",
+      "year": 2019,
+      "domain": "attention_mechanisms",
+      "abstract": "Cognitive attention control system for robotic platforms prioritizing sensory processing based on task relevance.",
+      "formalizable_claims": ["saliency_computation", "task_relevance_weighting", "attention_allocation_policy"]
+    },
+    {
+      "id": "US11132615B2",
+      "title": "Few-shot cognitive task adaptation via meta-learning",
+      "assignee": "Google LLC",
+      "year": 2021,
+      "domain": "meta_learning",
+      "abstract": "Meta-learning system enabling rapid cognitive task adaptation from few demonstrations via learned initialization.",
+      "formalizable_claims": ["meta_gradient_computation", "task_distribution_sampling", "fast_adaptation_update_rule"]
+    },
+    {
+      "id": "US10783441B2",
+      "title": "Neural cognitive architecture with global workspace theory",
+      "assignee": "Baars Institute",
+      "year": 2020,
+      "domain": "cognitive_architecture",
+      "abstract": "Neural architecture implementing global workspace theory for conscious-like information integration.",
+      "formalizable_claims": ["workspace_broadcast_function", "competition_selection_mechanism", "information_integration_measure"]
+    },
+    {
+      "id": "US11348018B2",
+      "title": "Cognitive anomaly detection via autoencoder reconstruction",
+      "assignee": "Amazon Technologies",
+      "year": 2022,
+      "domain": "anomaly_detection",
+      "abstract": "Autoencoder detecting cognitive system anomalies via reconstruction error thresholding on behavioral patterns.",
+      "formalizable_claims": ["reconstruction_error_function", "threshold_determination", "anomaly_score_computation"]
+    },
+    {
+      "id": "US10565492B2",
+      "title": "Cognitive question generation for educational systems",
+      "assignee": "Pearson Education",
+      "year": 2020,
+      "domain": "educational_cognition",
+      "abstract": "System generating cognitively calibrated questions adapted to learner knowledge state and difficulty level.",
+      "formalizable_claims": ["knowledge_state_model", "difficulty_estimation_function", "question_template_grammar"]
+    },
+    {
+      "id": "US11188814B2",
+      "title": "Differentiable neural computer with cognitive read-write heads",
+      "assignee": "DeepMind Technologies",
+      "year": 2021,
+      "domain": "memory_systems",
+      "abstract": "Differentiable neural computer using learned read-write operations over external memory for cognitive tasks.",
+      "formalizable_claims": ["write_weighting_function", "temporal_link_matrix", "memory_usage_tracking"]
+    },
+    {
+      "id": "US10853722B2",
+      "title": "Cognitive bias detection in decision support systems",
+      "assignee": "IBM",
+      "year": 2020,
+      "domain": "cognitive_bias",
+      "abstract": "System detecting cognitive biases in human decision-making and providing debiased recommendations.",
+      "formalizable_claims": ["bias_detection_classifier", "debiasing_transformation", "recommendation_adjustment_function"]
+    },
+    {
+      "id": "US11275937B2",
+      "title": "Compositional concept learning via neural program induction",
+      "assignee": "MIT",
+      "year": 2022,
+      "domain": "concept_learning",
+      "abstract": "Learning compositional concepts by inducing neural programs that capture structural regularities.",
+      "formalizable_claims": ["program_induction_search", "compositional_primitive_library", "concept_generalization_test"]
+    },
+    {
+      "id": "US10706353B2",
+      "title": "Cognitive speech synthesis with prosodic modeling",
+      "assignee": "Google LLC",
+      "year": 2020,
+      "domain": "speech_cognition",
+      "abstract": "Speech synthesis system modeling cognitive prosodic patterns including emphasis, rhythm, and intonation.",
+      "formalizable_claims": ["prosody_prediction_function", "duration_model", "pitch_contour_generation"]
+    },
+    {
+      "id": "US11164072B2",
+      "title": "Multi-agent cognitive collaboration via communication protocols",
+      "assignee": "DeepMind Technologies",
+      "year": 2021,
+      "domain": "multi_agent_cognition",
+      "abstract": "Multi-agent system developing emergent communication protocols for collaborative cognitive task solving.",
+      "formalizable_claims": ["message_encoding_function", "communication_channel_model", "collaborative_reward_structure"]
+    },
+    {
+      "id": "US10929755B2",
+      "title": "Cognitive intent prediction from gaze and gesture patterns",
+      "assignee": "Apple Inc",
+      "year": 2021,
+      "domain": "cognitive_state_modeling",
+      "abstract": "Predicting user cognitive intent from gaze trajectory and gesture patterns in mixed reality environments.",
+      "formalizable_claims": ["gaze_trajectory_encoding", "gesture_feature_extraction", "intent_posterior_computation"]
+    },
+    {
+      "id": "US10496918B2",
+      "title": "Symbolic regression via neural-guided search",
+      "assignee": "Salesforce",
+      "year": 2019,
+      "domain": "symbolic_reasoning",
+      "abstract": "Discovering symbolic mathematical expressions from data using neural network guided search over expression trees.",
+      "formalizable_claims": ["expression_tree_grammar", "neural_search_policy", "symbolic_fitness_function"]
+    },
+    {
+      "id": "US11392845B2",
+      "title": "Cognitive recommendation with explicit reasoning chains",
+      "assignee": "Amazon Technologies",
+      "year": 2022,
+      "domain": "reasoning_engines",
+      "abstract": "Recommendation system providing explicit cognitive reasoning chains explaining why items are suggested.",
+      "formalizable_claims": ["reasoning_chain_generation", "explanation_faithfulness_metric", "preference_inference_model"]
+    },
+    {
+      "id": "US10685293B2",
+      "title": "Spatial-temporal graph networks for cognitive event detection",
+      "assignee": "NVIDIA",
+      "year": 2020,
+      "domain": "spatial_cognition",
+      "abstract": "Graph network processing spatial-temporal data for detecting cognitive events in video streams.",
+      "formalizable_claims": ["spatiotemporal_graph_construction", "event_detection_predicate", "temporal_propagation_rule"]
+    },
+    {
+      "id": "US11200500B2",
+      "title": "Language model cognitive alignment via human feedback",
+      "assignee": "OpenAI",
+      "year": 2022,
+      "domain": "alignment",
+      "abstract": "Training language models to align with human cognitive preferences via reinforcement learning from feedback.",
+      "formalizable_claims": ["reward_model_training", "preference_comparison_function", "policy_optimization_objective"]
+    },
+    {
+      "id": "US10817750B2",
+      "title": "Neural cognitive map for relational database querying",
+      "assignee": "Salesforce",
+      "year": 2020,
+      "domain": "cognitive_automation",
+      "abstract": "Neural system mapping natural language to SQL queries using cognitive semantic parsing and schema linking.",
+      "formalizable_claims": ["schema_linking_function", "sql_grammar_constraint", "execution_guided_decoding"]
+    },
+    {
+      "id": "US11334771B2",
+      "title": "Cognitive fatigue prediction via wearable sensor fusion",
+      "assignee": "Fitbit LLC",
+      "year": 2022,
+      "domain": "cognitive_state_modeling",
+      "abstract": "Predicting cognitive fatigue from wearable sensor data including heart rate variability and activity patterns.",
+      "formalizable_claims": ["feature_extraction_pipeline", "fatigue_prediction_model", "alert_threshold_function"]
+    },
+    {
+      "id": "US10558928B2",
+      "title": "Object-centric representation learning for cognitive perception",
+      "assignee": "DeepMind Technologies",
+      "year": 2020,
+      "domain": "perception",
+      "abstract": "Unsupervised learning of object-centric representations decomposing visual scenes into cognitive entities.",
+      "formalizable_claims": ["slot_attention_mechanism", "object_decoder_function", "reconstruction_objective"]
+    },
+    {
+      "id": "US11120339B2",
+      "title": "Cognitive code generation from natural language specifications",
+      "assignee": "Microsoft",
+      "year": 2021,
+      "domain": "program_synthesis",
+      "abstract": "System generating executable code from natural language cognitive specifications using neural program synthesis.",
+      "formalizable_claims": ["specification_encoding", "code_generation_grammar", "functional_correctness_verifier"]
+    },
+    {
+      "id": "US10949741B2",
+      "title": "Neuromorphic cognitive processor with on-chip learning",
+      "assignee": "Intel Corporation",
+      "year": 2021,
+      "domain": "neuromorphic_computing",
+      "abstract": "Neuromorphic processor implementing cognitive functions with spike-based on-chip learning for edge inference.",
+      "formalizable_claims": ["spike_based_learning_rule", "on_chip_memory_architecture", "energy_efficiency_bound"]
+    },
+    {
+      "id": "US11403529B2",
+      "title": "Cognitive scene understanding via neural radiance fields",
+      "assignee": "Google LLC",
+      "year": 2022,
+      "domain": "perception",
+      "abstract": "Neural radiance field approach to cognitive 3D scene understanding from sparse 2D observations.",
+      "formalizable_claims": ["radiance_field_function", "volume_rendering_equation", "view_synthesis_operator"]
+    },
+    {
+      "id": "US10733505B2",
+      "title": "Cognitive skill transfer across task domains",
+      "assignee": "DeepMind Technologies",
+      "year": 2020,
+      "domain": "transfer_learning",
+      "abstract": "Transfer learning framework enabling cognitive skill transfer from source to target task domains.",
+      "formalizable_claims": ["domain_adaptation_function", "skill_embedding_space", "transfer_effectiveness_metric"]
+    },
+    {
+      "id": "US11175446B2",
+      "title": "Probabilistic cognitive model for uncertainty quantification",
+      "assignee": "Uber Technologies",
+      "year": 2021,
+      "domain": "uncertainty_modeling",
+      "abstract": "Bayesian deep learning model quantifying epistemic and aleatoric uncertainty in cognitive predictions.",
+      "formalizable_claims": ["epistemic_uncertainty_estimate", "aleatoric_uncertainty_estimate", "predictive_posterior_computation"]
+    },
+    {
+      "id": "US10599982B2",
+      "title": "Cognitive image captioning with attention visualization",
+      "assignee": "Microsoft",
+      "year": 2020,
+      "domain": "multimodal_cognition",
+      "abstract": "Image captioning model with cognitive attention visualization showing which regions influence generated words.",
+      "formalizable_claims": ["visual_attention_map", "caption_generation_model", "attention_faithfulness_metric"]
+    },
+    {
+      "id": "US11319710B2",
+      "title": "Cognitive debugging via program state reasoning",
+      "assignee": "Microsoft",
+      "year": 2022,
+      "domain": "program_synthesis",
+      "abstract": "AI system performing cognitive debugging by reasoning over program states and identifying fault localizations.",
+      "formalizable_claims": ["program_state_abstraction", "fault_localization_function", "fix_suggestion_generator"]
+    },
+    {
+      "id": "US10769527B2",
+      "title": "Self-organizing cognitive memory for lifelong learning",
+      "assignee": "Samsung Electronics",
+      "year": 2020,
+      "domain": "memory_systems",
+      "abstract": "Self-organizing memory system supporting lifelong cognitive learning with dynamic capacity allocation.",
+      "formalizable_claims": ["memory_consolidation_rule", "capacity_allocation_function", "retrieval_priority_ordering"]
+    },
+    {
+      "id": "US11205103B2",
+      "title": "Cognitive graph reasoning for multi-hop question answering",
+      "assignee": "Alibaba Group",
+      "year": 2021,
+      "domain": "reasoning_engines",
+      "abstract": "Graph-based cognitive reasoning performing multi-hop inference chains for complex question answering.",
+      "formalizable_claims": ["hop_selection_function", "evidence_aggregation_operator", "answer_span_extraction"]
+    },
+    {
+      "id": "US10635974B2",
+      "title": "Cognitive simulation of physical dynamics via learned models",
+      "assignee": "DeepMind Technologies",
+      "year": 2020,
+      "domain": "physical_reasoning",
+      "abstract": "Learned physics simulator performing cognitive simulation of physical dynamics for planning and prediction.",
+      "formalizable_claims": ["dynamics_prediction_function", "interaction_network_computation", "rollout_accumulation_scheme"]
+    },
+    {
+      "id": "US11354572B2",
+      "title": "Cognitive privacy-preserving computation via secure enclaves",
+      "assignee": "Intel Corporation",
+      "year": 2022,
+      "domain": "privacy_cognition",
+      "abstract": "Secure enclave architecture for privacy-preserving cognitive computation on sensitive data.",
+      "formalizable_claims": ["enclave_isolation_guarantee", "attestation_protocol", "secure_computation_boundary"]
+    },
+    {
+      "id": "US10810487B2",
+      "title": "Hierarchical cognitive planning via world models",
+      "assignee": "Meta Platforms",
+      "year": 2020,
+      "domain": "planning_and_decision",
+      "abstract": "World model enabling hierarchical cognitive planning by simulating future states at multiple abstraction levels.",
+      "formalizable_claims": ["world_model_transition_function", "abstraction_hierarchy", "plan_evaluation_criterion"]
+    },
+    {
+      "id": "US11262499B2",
+      "title": "Cognitive anomaly explanation via contrastive reasoning",
+      "assignee": "IBM",
+      "year": 2022,
+      "domain": "explainability",
+      "abstract": "Explaining detected anomalies by generating contrastive cognitive explanations comparing normal and anomalous states.",
+      "formalizable_claims": ["contrastive_explanation_function", "normal_state_model", "anomaly_attribution_score"]
+    },
+    {
+      "id": "US10552740B2",
+      "title": "Cognitive data augmentation via generative models",
+      "assignee": "NVIDIA",
+      "year": 2020,
+      "domain": "generative_cognition",
+      "abstract": "Generative model producing cognitively consistent synthetic training data for data-scarce cognitive tasks.",
+      "formalizable_claims": ["generation_consistency_constraint", "distribution_matching_objective", "augmentation_diversity_metric"]
+    },
+    {
+      "id": "US11146602B2",
+      "title": "Cognitive network intrusion detection via behavioral analysis",
+      "assignee": "Palo Alto Networks",
+      "year": 2021,
+      "domain": "security_cognition",
+      "abstract": "Network intrusion detection using cognitive behavioral analysis to identify anomalous access patterns.",
+      "formalizable_claims": ["behavioral_profile_model", "anomaly_threshold_function", "alert_classification_rule"]
+    },
+    {
+      "id": "US10902316B2",
+      "title": "Cognitive text summarization with faithfulness constraints",
+      "assignee": "Google LLC",
+      "year": 2021,
+      "domain": "natural_language_understanding",
+      "abstract": "Abstractive summarization with cognitive faithfulness constraints ensuring factual consistency with source.",
+      "formalizable_claims": ["faithfulness_scoring_function", "entailment_verification", "summary_compression_ratio"]
+    },
+    {
+      "id": "US10997502B2",
+      "title": "Cognitive active learning for efficient annotation",
+      "assignee": "Scale AI",
+      "year": 2021,
+      "domain": "active_learning",
+      "abstract": "Active learning system selecting maximally informative samples using cognitive uncertainty-based acquisition.",
+      "formalizable_claims": ["acquisition_function", "uncertainty_sampling_criterion", "information_gain_estimate"]
+    },
+    {
+      "id": "US11376519B2",
+      "title": "Cognitive molecular property prediction via graph transformers",
+      "assignee": "Google LLC",
+      "year": 2022,
+      "domain": "scientific_cognition",
+      "abstract": "Graph transformer predicting molecular properties by cognitive reasoning over atomic structure graphs.",
+      "formalizable_claims": ["molecular_graph_encoding", "property_prediction_head", "attention_over_bonds"]
+    },
+    {
+      "id": "US10650302B2",
+      "title": "Cognitive architecture for autonomous vehicle decision-making",
+      "assignee": "Waymo LLC",
+      "year": 2020,
+      "domain": "planning_and_decision",
+      "abstract": "Cognitive decision architecture for autonomous vehicles integrating perception, prediction, and planning.",
+      "formalizable_claims": ["perception_fusion_function", "trajectory_prediction_model", "safety_constraint_verification"]
+    },
+    {
+      "id": "US11218524B2",
+      "title": "Cognitive retrieval-augmented generation for knowledge tasks",
+      "assignee": "Meta Platforms",
+      "year": 2022,
+      "domain": "memory_systems",
+      "abstract": "Generation model augmented with cognitive retrieval from external knowledge stores for factual grounding.",
+      "formalizable_claims": ["retrieval_scoring_function", "context_integration_mechanism", "knowledge_store_index"]
+    },
+    {
+      "id": "US10795988B2",
+      "title": "Cognitive fingerprint authentication via behavioral biometrics",
+      "assignee": "Samsung Electronics",
+      "year": 2020,
+      "domain": "cognitive_state_modeling",
+      "abstract": "Authentication system using cognitive behavioral biometrics including typing dynamics and device interaction.",
+      "formalizable_claims": ["behavioral_feature_vector", "authentication_decision_function", "adaptive_threshold_update"]
+    },
+    {
+      "id": "US11310261B2",
+      "title": "Cognitive neural ODE for continuous-time dynamics modeling",
+      "assignee": "Google LLC",
+      "year": 2022,
+      "domain": "continuous_cognition",
+      "abstract": "Neural ordinary differential equation modeling continuous-time cognitive dynamics with adaptive step size.",
+      "formalizable_claims": ["ode_dynamics_function", "adjoint_sensitivity_computation", "adaptive_solver_step"]
+    },
+    {
+      "id": "US10573017B2",
+      "title": "Cognitive visual grounding in 3D environments",
+      "assignee": "NVIDIA",
+      "year": 2020,
+      "domain": "spatial_cognition",
+      "abstract": "System grounding natural language expressions to 3D spatial regions using cognitive visual-linguistic reasoning.",
+      "formalizable_claims": ["spatial_relation_encoding", "region_proposal_function", "grounding_score_computation"]
+    },
+    {
+      "id": "US11170280B2",
+      "title": "Cognitive time-series forecasting with attention mechanisms",
+      "assignee": "Amazon Technologies",
+      "year": 2021,
+      "domain": "temporal_cognition",
+      "abstract": "Attention-based model for cognitive time-series forecasting capturing multi-scale temporal dependencies.",
+      "formalizable_claims": ["multi_scale_attention", "temporal_encoding_function", "forecast_confidence_interval"]
+    },
+    {
+      "id": "US10937004B2",
+      "title": "Cognitive game playing via Monte Carlo tree search with neural evaluation",
+      "assignee": "DeepMind Technologies",
+      "year": 2021,
+      "domain": "planning_and_decision",
+      "abstract": "Game playing system combining Monte Carlo tree search with neural cognitive evaluation for strategic planning.",
+      "formalizable_claims": ["tree_search_policy", "value_network_evaluation", "exploration_exploitation_balance"]
+    },
+    {
+      "id": "US11426068B2",
+      "title": "Cognitive protein structure prediction via attention over residues",
+      "assignee": "DeepMind Technologies",
+      "year": 2022,
+      "domain": "scientific_cognition",
+      "abstract": "Attention-based architecture predicting 3D protein structure from amino acid sequences via iterative refinement.",
+      "formalizable_claims": ["residue_pair_representation", "structure_module_iteration", "confidence_per_residue_score"]
+    },
+    {
+      "id": "US10664746B2",
+      "title": "Cognitive sentiment analysis with aspect-level granularity",
+      "assignee": "IBM",
+      "year": 2020,
+      "domain": "affective_computing",
+      "abstract": "Fine-grained sentiment analysis identifying cognitive sentiment toward specific aspects of reviewed entities.",
+      "formalizable_claims": ["aspect_extraction_function", "sentiment_polarity_classification", "aspect_sentiment_pairing"]
+    },
+    {
+      "id": "US11240264B2",
+      "title": "Cognitive adversarial robustness via certified defenses",
+      "assignee": "Google LLC",
+      "year": 2022,
+      "domain": "robustness",
+      "abstract": "Certified defense providing provable robustness guarantees for cognitive neural networks under adversarial perturbation.",
+      "formalizable_claims": ["perturbation_bound_specification", "certification_algorithm", "robustness_guarantee_proof"]
+    },
+    {
+      "id": "US10885400B2",
+      "title": "Cognitive image generation via diffusion processes",
+      "assignee": "OpenAI",
+      "year": 2021,
+      "domain": "generative_cognition",
+      "abstract": "Diffusion-based model generating cognitively coherent images through iterative denoising process.",
+      "formalizable_claims": ["forward_diffusion_process", "reverse_denoising_step", "noise_schedule_specification"]
+    },
+    {
+      "id": "US11367005B2",
+      "title": "Cognitive medical diagnosis via symptom graph reasoning",
+      "assignee": "Google LLC",
+      "year": 2022,
+      "domain": "medical_cognition",
+      "abstract": "Medical diagnosis system performing cognitive reasoning over symptom-disease graphs with uncertainty quantification.",
+      "formalizable_claims": ["symptom_graph_construction", "diagnostic_inference_function", "uncertainty_propagation_rule"]
+    },
+    {
+      "id": "US10740683B2",
+      "title": "Cognitive gesture recognition for sign language translation",
+      "assignee": "Microsoft",
+      "year": 2020,
+      "domain": "embodied_cognition",
+      "abstract": "System recognizing cognitive gestures in sign language and translating them to natural language text.",
+      "formalizable_claims": ["gesture_segmentation_function", "sign_recognition_classifier", "translation_sequence_model"]
+    },
+    {
+      "id": "US11281928B2",
+      "title": "Cognitive graph generation for drug discovery",
+      "assignee": "Atomwise Inc",
+      "year": 2022,
+      "domain": "scientific_cognition",
+      "abstract": "Generative model producing novel molecular graphs with desired cognitive-pharmacological properties.",
+      "formalizable_claims": ["molecular_graph_grammar", "property_prediction_constraint", "generation_validity_check"]
+    },
+    {
+      "id": "US10614374B2",
+      "title": "Cognitive robotics with affordance prediction",
+      "assignee": "Boston Dynamics",
+      "year": 2020,
+      "domain": "embodied_cognition",
+      "abstract": "Robotic system predicting object affordances for cognitive manipulation planning in unstructured environments.",
+      "formalizable_claims": ["affordance_prediction_function", "grasp_pose_estimation", "manipulation_plan_verification"]
+    },
+    {
+      "id": "US11198234B2",
+      "title": "Cognitive network embedding via hyperbolic geometry",
+      "assignee": "Meta Platforms",
+      "year": 2022,
+      "domain": "representation_learning",
+      "abstract": "Embedding cognitive hierarchical structures in hyperbolic space preserving tree-like relational properties.",
+      "formalizable_claims": ["hyperbolic_distance_function", "embedding_optimization_objective", "hierarchy_preservation_metric"]
+    },
+    {
+      "id": "US10846559B2",
+      "title": "Cognitive music generation with structural coherence",
+      "assignee": "Google LLC",
+      "year": 2020,
+      "domain": "creative_cognition",
+      "abstract": "Music generation system maintaining long-range cognitive structural coherence via hierarchical sequence modeling.",
+      "formalizable_claims": ["structural_coherence_constraint", "hierarchical_sequence_model", "musical_grammar_encoding"]
+    }
+  ]
+}
